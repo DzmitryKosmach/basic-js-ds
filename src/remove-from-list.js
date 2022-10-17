@@ -24,7 +24,8 @@ const { ListNode } = require("../extensions/list-node.js");
  */
 function removeKFromList(l, k) {
   
-  let current = l.head;
+  return;
+  /* let current = l.head;
   let position = 0;
   do {
     let next = current.next;
@@ -39,7 +40,7 @@ function removeKFromList(l, k) {
     
   } while (current.next);
 
-  return l;
+  return l; */
   
 }
 
